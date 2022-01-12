@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item android:title="@string/menu_welcome">
+            <menu>
+                <item
+                    android:id="@+id/nav_dashboard"
+                    android:title="@string/menu_dashboard" />
+                <item
+                    android:id="@+id/nav_profile"
+                    android:title="@string/menu_profile" />
+                <item
+                    android:id="@+id/nav_home"
+                    android:title="@string/menu_home" />
+                <item
+                    android:id="@+id/nav_chat"
+                    android:title="@string/menu_chat" />
+                <item
+                    android:id="@+id/nav_interviewProcess"
+                    android:title="@string/menu_requestInterview" />
+                <item
+                    android:id="@+id/nav_createResume"
+                    android:title="@string/menu_viewResume" />
+                <item
+                    android:id="@+id/nav_scanDoc"
+                    android:title="@string/menu_scanDoc" />
+                <item
+                    android:id="@+id/nav_game"
+                    android:title="@string/menu_game" />
+                <item
+                    android:id="@+id/nav_learn"
+                    android:title="@string/menu_learn" />
+            </menu>
+        </item>
+    </group>
+</menu>

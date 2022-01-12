@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/menu_logout"
+        app:showAsAction="never" />
+    <item android:id="@+id/nav_chat"
+        android:orderInCategory="100"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_baseline_message_24"
+        android:title="Chat" />
+    <item android:id="@+id/nofi"
+        android:orderInCategory="100"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_baseline_notifications_24"
+        android:title="Notification" />
+    <item android:id="@+id/download"
+        android:orderInCategory="100"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_baseline_download_24"
+        android:title="Notification" />
+
+</menu>

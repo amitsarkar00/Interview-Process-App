@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/nav_dashboard">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.app05012022.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_learn"
+        android:name="com.example.app05012022.ui.LearnFragment"
+        android:label="@string/menu_learn"
+        tools:layout="@layout/fragment_learn" />
+    <fragment
+        android:id="@+id/nav_dashboard"
+        android:name="com.example.app05012022.ui.DashboardFragment"
+        android:label="@string/menu_blank"
+        tools:layout="@layout/fragment_dashboard" />
+    <fragment
+        android:id="@+id/nav_chat"
+        android:name="com.example.app05012022.ui.ChatFragment"
+        android:label="@string/menu_chat"
+        tools:layout="@layout/fragment_chat" />
+    <fragment
+        android:id="@+id/nav_scanDoc"
+        android:name="com.example.app05012022.ui.CameraFragment"
+        android:label="@string/menu_scanDoc"
+        tools:layout="@layout/fragment_camera" />
+    <fragment
+        android:id="@+id/nav_game"
+        android:name="com.example.app05012022.ui.GameFragment"
+        android:label="@string/menu_game"
+        tools:layout="@layout/fragment_game" />
+    <fragment
+        android:id="@+id/nav_profile"
+        android:name="com.example.app05012022.ui.ProfileFragment"
+        android:label="@string/menu_profile"
+        tools:layout="@layout/fragment_profile" />
+    <fragment
+        android:id="@+id/nav_createResume"
+        android:name="com.example.app05012022.ui.CreateResumeFragment"
+        android:label="@string/menu_createResume"
+        tools:layout="@layout/fragment_create_resume" />
+    <fragment
+        android:id="@+id/nav_apply"
+        android:name="com.example.app05012022.ui.AppliedJobsFragment"
+        android:label="@string/menu_gallery"
+        tools:layout="@layout/fragment_applied_jobs" />
+
+    <fragment
+        android:id="@+id/nav_gallery3"
+        android:name="com.example.app05012022.ui.OngoingProcessFragment"
+        android:label="@string/menu_gallery"
+        tools:layout="@layout/fragment_ongoing_process" />
+    <fragment
+        android:id="@+id/nav_gallery4"
+        android:name="com.example.app05012022.ui.RecommenedJobFragment"
+        android:label="@string/menu_gallery"
+        tools:layout="@layout/fragment_recommened_job" />
+    <fragment
+        android:id="@+id/nav_interviewProcess"
+        android:name="com.example.app05012022.ui.Interview"
+        android:label="@string/menu_requestInterview"
+        tools:layout="@layout/fragment_interview" />
+</navigation>
